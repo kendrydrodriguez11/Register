@@ -1,4 +1,4 @@
-package com.example.demo.authUsers.controllers.required;
+package com.example.demo.authUsers.user.dao.required;
 
 
 import jakarta.validation.constraints.Email;

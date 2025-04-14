@@ -1,7 +1,7 @@
-package com.example.demo.authUsers.service;
+package com.example.demo.authUsers.user.service;
 
-import com.example.demo.authUsers.model.EntityUser;
-import com.example.demo.authUsers.repository.detailsUser.RepositoryDetailsUser;
+import com.example.demo.authUsers.user.model.EntityUser;
+import com.example.demo.authUsers.user.repository.detailsUser.RepositoryDetailsUser;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

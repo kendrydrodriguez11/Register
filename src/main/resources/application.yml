@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: Homework
+  datasource:
+    url: jdbc:mysql://mysql_database:3306/homework
+
+    username: adminUser
+    password: 321
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: create
+
+jwt:
+  time:
+    expiration: 3600000
+  secret:
+    key: 76397924423F45264828406251655468576D5A7134743777217A25432A46204A
+

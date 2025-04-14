@@ -1,6 +1,6 @@
-package com.example.demo.authUsers.repository.detailsUser;
+package com.example.demo.authUsers.user.repository.detailsUser;
 
-import com.example.demo.authUsers.model.EntityUser;
+import com.example.demo.authUsers.user.model.EntityUser;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.NoResultException;
 import jakarta.persistence.PersistenceContext;

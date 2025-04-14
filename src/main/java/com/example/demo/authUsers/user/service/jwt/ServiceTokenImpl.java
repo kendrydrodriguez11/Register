@@ -1,7 +1,6 @@
-package com.example.demo.authUsers.service.jwt;
+package com.example.demo.authUsers.user.service.jwt;
 
-import com.example.demo.authUsers.model.EntityRole;
-import com.example.demo.authUsers.model.EntityUser;
+import com.example.demo.authUsers.user.model.EntityUser;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
@@ -75,7 +74,6 @@ public class ServiceTokenImpl implements ServiceToken {
         }catch(Exception e){
             throw new RuntimeException("Invalid token: " + e.getMessage());
         }
-
     }
 
     public Boolean validateToken(String token){
