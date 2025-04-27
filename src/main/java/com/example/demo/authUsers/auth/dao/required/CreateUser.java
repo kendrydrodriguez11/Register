@@ -1,4 +1,4 @@
-package com.example.demo.authUsers.controllers.required;
+package com.example.demo.authUsers.auth.dao.required;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
@@ -17,14 +17,12 @@ public class CreateUser {
     @NotBlank
     private String name;
 
-    @NotBlank @Email
+    @NotBlank
     private String email;
 
     @NotBlank
     private String password;
 
-    private LocalDate date;
-
     @NotNull
-    private Set<String>  role;
+    private Set<String> role;
 }

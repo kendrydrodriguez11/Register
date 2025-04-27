@@ -1,4 +1,4 @@
-package com.example.demo.authUsers.model;
+package com.example.demo.authUsers.auth.model;
 
 public enum RoleU {
     ADMIN,

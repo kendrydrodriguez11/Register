@@ -1,9 +1,8 @@
 package com.example.demo.authUsers.config;
 
 
-import com.example.demo.authUsers.model.EntityUser;
-import com.example.demo.authUsers.repository.detailsUser.RepositoryDetailsUser;
-import com.example.demo.authUsers.service.ServiceDetailsUser;
+import com.example.demo.authUsers.auth.model.EntityUser;
+import com.example.demo.authUsers.auth.service.ServiceDetailsUser;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
